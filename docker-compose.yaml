@@ -1,0 +1,17 @@
+services:
+  manifests:
+    build: .
+    volumes:
+      - type: bind
+        source: ./manifests
+        target: /manifests
+    ports:
+      - "8080:80"
+  images:
+    image: "iipsrv/iipsrv"
+    ports:
+      - "8180:80"
+    volumes:
+      - type: bind
+        source: ./images
+        target: /images
