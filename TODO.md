@@ -11,10 +11,15 @@
 
 ### App
 
-  * Add other viewer types into the interface
+  * List known regions and jump to points in viewer when selected
+  * Add other viewer (scroll) types into the interface
   * Tie together viewers to moving around in one changes the view in the others
   * Allow annotations of areas of interest on segments
-  * Allow for browsing to known areas of interest
+  * Overlay with models output 
+
+### Mirador
+
   * Write plugin for mirador to take vertical crop through layers and save as GIF (also preview window)
+  * Show image tool plugin
 
 

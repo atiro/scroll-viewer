@@ -35,12 +35,20 @@ var mirador = Mirador.viewer({
   "manifests": {
     "http://localhost:8080/collection/scroll1/manifest.json": {
       "provider": "Vesuvius Scroll Prize"
+    },
+    "http://localhost:8080/collection/scroll1/manifest-stack.json": {
+      "provider": "Vesuvius Scroll Prize"
     }
   },
   "windows": [
     {
       "loadedManifest": "http://localhost:8080/collection/scroll1/manifest.json",
       "canvasIndex": 0,
+      "thumbnailNavigationPosition": 'far-bottom'
+    },
+    {
+      "loadedManifest": "http://localhost:8080/collection/scroll1/manifest-stack.json",
+      "canvasIndex": 1,
       "thumbnailNavigationPosition": 'far-bottom'
     }
   ]
