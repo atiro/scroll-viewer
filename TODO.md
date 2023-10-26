@@ -13,9 +13,9 @@
 
   * List known regions and jump to points in viewer when selected
   * Add other viewer (scroll) types into the interface
-  * Tie together viewers to moving around in one changes the view in the others
+  * Tie together viewers so moving around in one changes the view in the others
   * Allow annotations of areas of interest on segments
-  * Overlay with models output 
+  * Overlay with models output
 
 ### Mirador
 
